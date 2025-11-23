@@ -1,0 +1,74 @@
+[
+  {
+    "title": "HTML",
+    "image": "https://icon.icepanel.io/Technology/svg/HTML5.svg",
+    "description": "Linguagem de marcação usada para estruturar páginas web.",
+    "rating": 5
+  },
+  {
+    "title": "CSS",
+    "image": "https://icon.icepanel.io/Technology/svg/CSS3.svg",
+    "description": "Folhas de estilo para definir layout, cores e aparência de páginas web.",
+    "rating": 4
+  },
+  {
+    "title": "Tailwind CSS",
+    "image": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
+    "description": "Framework utilitário para estilizar interfaces rapidamente.",
+    "rating": 5
+  },
+  {
+    "title": "JavaScript",
+    "image": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+    "description": "Linguagem de programação essencial para interatividade na Web.",
+    "rating": 5
+  },
+  {
+    "title": "TypeScript",
+    "image": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
+    "description": "Superset do JavaScript com tipagem estática.",
+    "rating": 5
+  },
+  {
+    "title": "JSON",
+    "image": "https://icon.icepanel.io/Technology/png-shadow-512/JSON.png",
+    "description": "Formato leve de troca de dados entre sistemas.",
+    "rating": 4
+  },
+  {
+    "title": "Swagger",
+    "image": "https://icon.icepanel.io/Technology/svg/Swagger.svg",
+    "description": "Ferramenta para documentação de APIs REST.",
+    "rating": 4
+  },
+  {
+    "title": "GitHub",
+    "image": "https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png",
+    "description": "Plataforma de hospedagem de código-fonte e controlo de versões.",
+    "rating": 5
+  },
+  {
+    "title": "Codespaces",
+    "image": "https://icon.icepanel.io/Technology/png-shadow-512/GitHub-Codespaces.png",
+    "description": "Ambiente de desenvolvimento cloud da GitHub.",
+    "rating": 3
+  },
+  {
+    "title": "React.js",
+    "image": "https://icon.icepanel.io/Technology/svg/React.svg",
+    "description": "Biblioteca JavaScript para criar interfaces reativas.",
+    "rating": 5
+  },
+  {
+    "title": "Next.js",
+    "image": "https://icon.icepanel.io/Technology/png-shadow-512/Next.js.png",
+    "description": "Framework React para aplicações otimizadas e com renderização híbrida.",
+    "rating": 5
+  },
+  {
+    "title": "Vercel",
+    "image": "https://icon.icepanel.io/Technology/png-shadow-512/Vercel.png",
+    "description": "Plataforma de deploy rápida e integrada ao Next.js.",
+    "rating": 4
+  }
+]
