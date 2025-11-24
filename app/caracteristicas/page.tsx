@@ -1,23 +1,17 @@
 import React from 'react'
+import Caracteristica from "@/components/Caracteristica/Caracteristica";
+import caracteristicas from "@/app/data/caracteristicas.json"
 
-const caracteristicas = [
-    'JSX, sintaxe que mistura HTML e JS.',
-    'Componentes, funções que retornam JSX.',
-    'Componentes Reutilizáveis e Modulares.',
-    'Roteamento Automático e APIs.',
-    'Hooks: useState, useEffect e useSWR.',
-    'Renderização Rápida e SEO Friendly.',
-    'TypeScript Seguro e Escalável.',
-    'Comunidade Ativa e Popularidade.'
-]
+export default function CaracteristicasPage() {
+  return (
+    <div className="p-8">
+      <h1 className="text-3xl font-bold mb-6">Características</h1>
 
-export default function page() {
-    return (
-        <div>
-            <h2>Caracter[isticas do React e Next.js</h2>
-            {caracteristicas.map((caracteristica, i) => {
-                return <li key={i}>{caracteristica}</li>
-            })}
-        </div>
-    )
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {caracteristicas.map((car, index) => (
+          <Caracteristica key={index} caracteristica={car} index={index} />
+        ))}
+      </div>
+    </div>
+  );
 }
